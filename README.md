@@ -1,2 +1,1 @@
-# site
-Site do Projeto da Facul
+Projeto da faculdade - Criar um site para o nosso jogo Tower Defense e fazer a sincronização dele com a web
