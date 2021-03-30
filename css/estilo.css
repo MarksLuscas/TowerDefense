@@ -13,7 +13,7 @@
 .destaque-home{
     width: 70%;
     border: 8px solid #272727;
-    border-radius: 0px 50px ;
+    border-radius:  0px 50px ;
     margin: 10px auto;
     padding: 50px;
 
@@ -39,3 +39,61 @@
     padding: 16px 4px;
     background-color: #167df4;
 }
+
+.textos{
+    text-align: start;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 10px 30% 10px 10px;
+    word-break: break-all;
+}
+
+.subtexto{
+    margin: 40px 0px 15px 0px;
+    padding: 0px 0px 0px 94px;
+}
+
+.imagem{
+    width: 100px;
+    margin: 20px 0px 0px 25px;
+}
+
+.titulo{
+    margin: 50px 0px 0px 25px;
+    word-break: break-all;
+}
+
+.titulo2{
+    margin: 150px 0px 0px 25px;
+}
+
+.btnVerPersonagens{
+    margin: 15px 0px 0px 250px;
+    font-weight: 600px;
+    color:rgb(0, 0, 0);
+    padding: 15px 60px;
+    background-color: #484a4d75;
+    border: 5px solid rgba(34, 33, 33, 0.548);
+}
+
+.menuFinal{
+    background-color: #272727;
+}
+
+.menuFinal button{ 
+    border: 1px solid #fff;
+}
+
+.menuFinal a{
+    color:white;
+    padding: 0px 0px 0px 40%;
+    margin: 0px 35px 35px 140px;
+    font-weight:200px;
+}
+
+.logoFinal{
+    width: 100px;
+    padding: 150px 0% 0px 0%;
+    margin: 0px 0px 0px 0px;
+}
+
