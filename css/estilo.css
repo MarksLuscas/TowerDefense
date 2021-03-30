@@ -1,0 +1,41 @@
+.menu{
+    background-color: #272727;
+}
+
+.menu button{ 
+    border:1px solid #fff;
+}
+
+.menu a{
+    color:white;
+}
+
+.destaque-home{
+    width: 70%;
+    border: 8px solid #272727;
+    border-radius: 0px 50px ;
+    margin: 10px auto;
+    padding: 50px;
+
+    text-align: center;
+}
+
+.destaque-home h1{
+    font-size: 64px;
+}
+
+.destaque-home button{
+    margin: 30px 0;
+    font-weight: 600;
+    color:#fff;
+    transform: rotate(4deg);
+    padding: 15px 60px;
+    background-color: #3190ff;
+    border:none;
+}
+
+.destaque-home span{
+    margin: 30px 0;
+    padding: 16px 4px;
+    background-color: #167df4;
+}
