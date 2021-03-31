@@ -1,5 +1,6 @@
 .menu{
     background-color: #272727;
+    padding: 15px 80px;
 }
 
 .menu button{ 
@@ -10,13 +11,28 @@
     color:white;
 }
 
-.destaque-home{
+.wid-70{
     width: 70%;
-    border: 8px solid #272727;
-    border-radius:  0px 50px ;
     margin: 10px auto;
-    padding: 50px;
+}
 
+.borda-cima{
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-top: 8px solid #272727;
+}
+.borda-baixo{
+    width: 15%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-top: 8px solid #272727;
+    float: right;
+}
+.destaque-home{
+    border: 8px solid #272727;
+    border-radius: 0px 50px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -40,60 +56,134 @@
     background-color: #167df4;
 }
 
-.textos{
-    text-align: start;
-    line-height: 30px;
-    font-size: 20px;
-    margin: 10px 30% 10px 10px;
-    word-break: break-all;
+.destaque-home img{
+    max-width: 100px;
 }
 
-.subtexto{
-    margin: 40px 0px 15px 0px;
-    padding: 0px 0px 0px 94px;
+.video-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.imagem{
-    width: 100px;
-    margin: 20px 0px 0px 25px;
+.video-texto h2{
+    font-size: 2.8em;
+    font-weight: 700;
 }
 
-.titulo{
-    margin: 50px 0px 0px 25px;
-    word-break: break-all;
+.video-texto h3{
+    margin-top: 40px;
 }
 
-.titulo2{
-    margin: 150px 0px 0px 25px;
+.video-texto p{
+    text-align: justify;
 }
 
-.btnVerPersonagens{
-    margin: 15px 0px 0px 250px;
-    font-weight: 600px;
-    color:rgb(0, 0, 0);
-    padding: 15px 60px;
-    background-color: #484a4d75;
-    border: 5px solid rgba(34, 33, 33, 0.548);
+.video-jogo img{
+    margin-top: 100px;
+    width: 100%;
 }
 
-.menuFinal{
+.personagem-texto{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.personagem-texto h2{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.personagem-texto h3{
+    margin-top: 40px;
+}
+
+.personagem-texto p{
+    text-align: justify;
+}
+
+
+.botao-personagem{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-bottom: 15px;
+}
+.botao-personagem span{
+    border: 2px solid #000;
+    padding: 24px 4px;
+}
+.botao-personagem a{
+    padding: 20px 40px;
+    background-color: #c4c4c4;
+    font-weight: 700;
+    color: #000;
+}
+
+.botao-personagem a:hover{
+    text-decoration: none;
+}
+
+.personagem-jogo img{
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+footer{
+    padding: 30px;
     background-color: #272727;
+    color: #fff;
+    text-align: center;
 }
 
-.menuFinal button{ 
-    border: 1px solid #fff;
-}
 
-.menuFinal a{
-    color:white;
-    padding: 0px 0px 0px 40%;
-    margin: 0px 35px 35px 140px;
-    font-weight:200px;
-}
+@media only screen and (max-width: 768px) {
+    .menu{
+        padding: 15px 20px;
+    }
+    .destaque-home {
+        padding: 10px;
+    }
 
-.logoFinal{
-    width: 100px;
-    padding: 150px 0% 0px 0%;
-    margin: 0px 0px 0px 0px;
-}
+    .destaque-home button {
+        padding: 15px 10px;
+    }
 
+    .destaque-home h1{
+        font-size: 32px;
+    }
+    .video-texto h2 {
+        font-size: 26px;
+    }
+    .video-texto h3 {
+        font-size: 24px;
+    }
+
+    .video-jogo img {
+        margin-top: 10px;
+    }
+
+    .personagem-texto h2 {
+        font-size: 26px;
+    }
+    .personagem-texto h3 {
+        font-size: 24px;
+    }
+    
+    .botao-personagem{
+        top: 15px;
+    }
+
+    .botao-personagem span {
+        border: 2px solid #000;
+        padding: 18px 4px;
+    }
+    .botao-personagem a {
+        padding: 16px 2px;
+        font-size: 12px;
+    }
+
+    .personagem-jogo img {
+        margin-top: 40px;
+    }
+}
